@@ -5,7 +5,7 @@ title: Barebones
 subtitle: A barebone GitHub Pages with static comments
 email: your-email@domain.com
 description: Test
-# baseurl: "/blogtest"
+baseurl: "/blogtest"
 # url: "https://example.com"
 locale: en
 github_username:  blitzcoder
