@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} - {{ site.title }}</title>
+        {% if page.index %}
+        {% include {{ page.index }}.html %}
+        {% endif %}                
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+    </head>
+    <body>
+        {% include header.html %}
+        <main>
+            {{ content }}
+        </main>
+        {% include footer.html %}
+    </body>
+</html>
