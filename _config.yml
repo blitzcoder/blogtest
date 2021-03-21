@@ -1,0 +1,25 @@
+# General Settings
+encoding: utf-8
+# Site settings
+title: Barebones
+subtitle: A barebone GitHub Pages with static comments
+email: your-email@domain.com
+description: Test
+# baseurl: "/blogtest"
+# url: "https://example.com"
+locale: en
+github_username:  blitzcoder
+
+repository: "blitzcoder/blogtest"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-redirect-from
+  - jemoji  
+
+staticman:
+  # Name of repository, for use with Staticman
+  # repository: "blitzcoder/blogtest"
+  branch: "main"
