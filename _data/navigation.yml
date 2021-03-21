@@ -1,4 +1,4 @@
 - title: Home
-  path: {{ site.baseurl }}
+  path: /
 - title: About
-  path: {{ site.baseurl }}/about/
+  path: /about/
